@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "نظام CRM"
+  },
+  "nav": {
+    "dashboard": "الرئيسية",
+    "customers": "العملاء",
+    "deals": "الصفقات",
+    "tasks": "المهام",
+    "reports": "التقارير",
+    "settings": "الإعدادات"
+  },
+  "topbar": {
+    "search": "بحث...",
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "نظرة عامة",
+    "subtitle": "ملخص أداء عملك اليوم",
+    "stats": {
+      "customers": "عدد العملاء",
+      "revenue": "الإيرادات",
+      "deals": "الصفقات النشطة",
+      "tasks": "المهام المعلقة"
+    },
+    "recentDeals": "آخر الصفقات",
+    "client": "العميل",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "statusWon": "مكتملة",
+    "statusPending": "قيد الانتظار",
+    "statusLost": "خاسرة"
+  },
+  "customers": {
+    "title": "العملاء",
+    "subtitle": "إدارة بيانات عملائك ومتابعتهم",
+    "searchPlaceholder": "بحث بالاسم أو البريد أو الشركة...",
+    "addCustomer": "إضافة عميل",
+    "viewTable": "جدول",
+    "viewCards": "كروت",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "company": "الشركة",
+    "status": "الحالة",
+    "statusActive": "نشط",
+    "statusInactive": "غير نشط",
+    "statusPending": "قيد الانتظار",
+    "noResults": "لا توجد نتائج مطابقة للبحث",
+    "modalTitle": "إضافة عميل جديد",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "filterAll": "الكل",
+    "sortBy": "ترتيب حسب",
+    "sortName": "الاسم",
+    "sortCompany": "الشركة"
+  }
+}

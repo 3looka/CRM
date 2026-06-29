@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "CRM System"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "deals": "Deals",
+    "tasks": "Tasks",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "topbar": {
+    "search": "Search...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "Your business performance summary today",
+    "stats": {
+      "customers": "Total Customers",
+      "revenue": "Revenue",
+      "deals": "Active Deals",
+      "tasks": "Pending Tasks"
+    },
+    "recentDeals": "Recent Deals",
+    "client": "Client",
+    "amount": "Amount",
+    "status": "Status",
+    "statusWon": "Won",
+    "statusPending": "Pending",
+    "statusLost": "Lost"
+  },
+  "customers": {
+    "title": "Customers",
+    "subtitle": "Manage and track your customer data",
+    "searchPlaceholder": "Search by name, email, or company...",
+    "addCustomer": "Add Customer",
+    "viewTable": "Table",
+    "viewCards": "Cards",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "status": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "statusPending": "Pending",
+    "noResults": "No matching results found",
+    "modalTitle": "Add New Customer",
+    "save": "Save",
+    "cancel": "Cancel",
+    "filterAll": "All",
+    "sortBy": "Sort by",
+    "sortName": "Name",
+    "sortCompany": "Company"
+  }
+}
