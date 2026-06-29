@@ -56,5 +56,29 @@
     "sortBy": "ترتيب حسب",
     "sortName": "الاسم",
     "sortCompany": "الشركة"
+  },
+  "deals": {
+    "title": "الصفقات",
+    "subtitle": "متابعة صفقاتك وحالتها",
+    "searchPlaceholder": "بحث باسم العميل...",
+    "addDeal": "إضافة صفقة",
+    "viewTable": "جدول",
+    "viewCards": "كروت",
+    "client": "العميل",
+    "amount": "المبلغ",
+    "stage": "المرحلة",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "statusWon": "مكتملة",
+    "statusPending": "قيد الانتظار",
+    "statusLost": "خاسرة",
+    "noResults": "لا توجد نتائج مطابقة للبحث",
+    "modalTitle": "إضافة صفقة جديدة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "sortBy": "ترتيب حسب",
+    "sortAmount": "المبلغ",
+    "sortDate": "التاريخ",
+    "filterAll": "الكل"
   }
 }

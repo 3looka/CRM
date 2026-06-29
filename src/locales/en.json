@@ -56,5 +56,29 @@
     "sortBy": "Sort by",
     "sortName": "Name",
     "sortCompany": "Company"
+  },
+  "deals": {
+    "title": "Deals",
+    "subtitle": "Track your deals and their status",
+    "searchPlaceholder": "Search by client name...",
+    "addDeal": "Add Deal",
+    "viewTable": "Table",
+    "viewCards": "Cards",
+    "client": "Client",
+    "amount": "Amount",
+    "stage": "Stage",
+    "date": "Date",
+    "status": "Status",
+    "statusWon": "Won",
+    "statusPending": "Pending",
+    "statusLost": "Lost",
+    "noResults": "No matching results found",
+    "modalTitle": "Add New Deal",
+    "save": "Save",
+    "cancel": "Cancel",
+    "sortBy": "Sort by",
+    "sortAmount": "Amount",
+    "sortDate": "Date",
+    "filterAll": "All"
   }
 }

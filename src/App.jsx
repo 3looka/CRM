@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { LanguageProvider } from "./context/LanguageContext";
+import { ThemeProvider } from "./context/ThemeContext";
 import Sidebar from "./components/Sidebar";
 import TopBar from "./components/TopBar";
 import Dashboard from "./pages/Dashboard";
 import Customers from "./pages/Customers";
+import Deals from "./pages/Deals";
+import Settings from "./pages/Settings";
 
 function AppContent() {
   const [dark, setDark] = useState(false);
@@ -12,6 +15,8 @@ function AppContent() {
   const renderPage = () => {
     if (activePage === "dashboard") return <Dashboard />;
     if (activePage === "customers") return <Customers />;
+    if (activePage === "deals") return <Deals />;
+    if (activePage === "settings") return <Settings />;
     return (
       <div className="bg-white dark:bg-[#18181b] rounded-2xl shadow-card border border-gray-100 dark:border-gray-800 p-8">
         <h1 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -43,9 +48,11 @@ function AppContent() {
 
 function App() {
   return (
-    <LanguageProvider>
-      <AppContent />
-    </LanguageProvider>
+    <ThemeProvider>
+      <LanguageProvider>
+        <AppContent />
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
 
