@@ -1,7 +1,5 @@
 {
-  "app": {
-    "name": "نظام CRM"
-  },
+  "app": { "name": "نظام CRM" },
   "nav": {
     "dashboard": "الرئيسية",
     "customers": "العملاء",
@@ -80,5 +78,27 @@
     "sortAmount": "المبلغ",
     "sortDate": "التاريخ",
     "filterAll": "الكل"
+  },
+  "tasks": {
+    "title": "المهام",
+    "subtitle": "تنظيم مهامك ومتابعة تقدمها",
+    "addTask": "إضافة مهمة",
+    "viewList": "قائمة",
+    "viewKanban": "كانبان",
+    "taskTitle": "عنوان المهمة",
+    "dueDate": "تاريخ الاستحقاق",
+    "priority": "الأولوية",
+    "priorityHigh": "عالية",
+    "priorityMedium": "متوسطة",
+    "priorityLow": "منخفضة",
+    "statusTodo": "للعمل",
+    "statusInprogress": "جارية",
+    "statusDone": "منتهية",
+    "noTasks": "لا توجد مهام في هذا العمود",
+    "modalTitle": "إضافة مهمة جديدة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "searchPlaceholder": "بحث في المهام..."
   }
 }

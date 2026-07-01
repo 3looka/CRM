@@ -1,7 +1,5 @@
 {
-  "app": {
-    "name": "CRM System"
-  },
+  "app": { "name": "CRM System" },
   "nav": {
     "dashboard": "Dashboard",
     "customers": "Customers",
@@ -80,5 +78,27 @@
     "sortAmount": "Amount",
     "sortDate": "Date",
     "filterAll": "All"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "subtitle": "Organize your tasks and track progress",
+    "addTask": "Add Task",
+    "viewList": "List",
+    "viewKanban": "Kanban",
+    "taskTitle": "Task Title",
+    "dueDate": "Due Date",
+    "priority": "Priority",
+    "priorityHigh": "High",
+    "priorityMedium": "Medium",
+    "priorityLow": "Low",
+    "statusTodo": "To Do",
+    "statusInprogress": "In Progress",
+    "statusDone": "Done",
+    "noTasks": "No tasks in this column",
+    "modalTitle": "Add New Task",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "searchPlaceholder": "Search tasks..."
   }
 }

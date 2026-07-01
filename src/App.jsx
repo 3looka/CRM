@@ -6,6 +6,7 @@ import TopBar from "./components/TopBar";
 import Dashboard from "./pages/Dashboard";
 import Customers from "./pages/Customers";
 import Deals from "./pages/Deals";
+import Tasks from "./pages/Tasks";
 import Settings from "./pages/Settings";
 
 function AppContent() {
@@ -16,6 +17,7 @@ function AppContent() {
     if (activePage === "dashboard") return <Dashboard />;
     if (activePage === "customers") return <Customers />;
     if (activePage === "deals") return <Deals />;
+    if (activePage === "tasks") return <Tasks />;
     if (activePage === "settings") return <Settings />;
     return (
       <div className="bg-white dark:bg-[#18181b] rounded-2xl shadow-card border border-gray-100 dark:border-gray-800 p-8">
@@ -33,10 +35,8 @@ function AppContent() {
     <div className={dark ? "dark" : ""}>
       <div className="flex h-screen bg-[#fafafa] dark:bg-[#0f0f10]">
         <Sidebar active={activePage} onNavigate={setActivePage} />
-
         <div className="flex-1 flex flex-col overflow-hidden">
           <TopBar dark={dark} setDark={setDark} />
-
           <main className="flex-1 overflow-y-auto p-6">
             {renderPage()}
           </main>
